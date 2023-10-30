@@ -489,7 +489,7 @@
       ]
     },
     
-    // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
+    // Tier 0 Mobs (Greyling, Boar, Neck)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier0Mob",
@@ -593,7 +593,62 @@
         }
       ]
     },
-    // Tier 2 Mobs (Greydwarf Brute, Greydwarf Shaman, Poison Skeleton)
+    // Tier 2 Mobs (Poison Skeleton)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Skeleton_Poison",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 20], [1, 80] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
+            { "Item": "Tier2Weapons",    "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 20], [1, 80] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 5, "Rarity": [ 29, 39, 29, 3 ] },
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 10], [1, 90] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 29, 39, 29, 3 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 5], [1, 90], [2, 5] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 0, 70, 20, 10 ] },
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 70, 20, 10 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 5], [1, 90], [2, 5] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 0, 40, 50, 10 ] },
+            { "Item": "Tier2Everything", "Weight": 5, "Rarity": [ 0, 40, 50, 10 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 5], [1, 91], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier1Everything", "Weight": 1,  "Rarity": [ 0, 60, 25, 15 ] },
+            { "Item": "Tier2Everything", "Weight": 10, "Rarity": [ 0, 60, 25, 15 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 2 Mobs (Greydwarf Brute, Greydwarf Shaman)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier2Mob",
@@ -957,26 +1012,20 @@
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 2 Mobs (Greydwarf Brute, Greydwarf Shaman, Rancid Remains)
+    // Tier 2 Mobs (Greydwarf Brute, Greydwarf Shaman)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Greydwarf Brute (Greydwarf_Elite)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Greydwarf_Elite",
-      "RefObject": "Tier1MobElite"
+      "RefObject": "Tier2Mob"
     },
     // Greydwarf Shaman (Greydwarf_Shaman)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Greydwarf_Shaman",
       "RefObject": "Tier2Mob"
-    },
-    // Rancid Remains (Skeleton_Poison)
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Skeleton_Poison",
-      "RefObject": "Tier1MobElite"
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

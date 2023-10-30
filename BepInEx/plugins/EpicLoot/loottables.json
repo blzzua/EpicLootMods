@@ -498,42 +498,53 @@
           "Level": 1,
           "Drops": [ [0, 80],[1, 20] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] }
+            { "Item": "Tier0Everything", "Weight": 2, "Rarity": [ 100, 0, 0, 0 ] },
+            { "Item": "Tier0Tools", "Weight": 1, "Rarity": [ 60, 20, 15, 5 ] },
+            { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] }
           ]
         },
         {
           "Level": 2,
-          "Drops": [ [1, 80], [1, 20] ],
+          "Drops": [ [0, 60], [1, 40] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] }
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 95, 5, 0, 0 ] },
+            { "Item": "Tier0Tools", "Weight": 2, "Rarity": [ 20, 60, 15, 5 ] },
+            { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] }
           ]
         },
         {
           "Level": 3,
-          "Drops": [ [1, 70], [1, 30] ],
+          "Drops": [ [0, 20], [1, 80] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 90, 10, 0, 0 ] }
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5] },
+            { "Item": "Tier0Tools", "Weight": 1, "Rarity": [ 10, 60, 25, 15 ] },
+            { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] }
           ]
         },
         {
           "Level": 4,
-          "Drops": [ [0, 80], [1, 20] ],
+          "Drops": [ [0, 20], [1, 80] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0 ] }
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 75, 15, 5, 5] },
+            { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 75, 15, 5, 5 ] }
+
           ]
         },
         {
           "Level": 5,
-          "Drops": [ [0, 70], [1, 30] ],
+          "Drops": [ [0, 20], [1, 80] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 70, 19, 10, 1 ] }
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity":  [ 5, 15, 20, 60 ] },
+            { "Item": "Tier1Armor", "Weight": 1, "Rarity":  [ 5, 15, 20, 60 ] }
+
           ]
         },
         {
           "Level": 6,
-          "Drops": [ [0, 60], [1, 39], [2, 1] ],
+          "Drops":  [ [0, 10], [1, 80], [2, 10] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 60, 20, 15, 5 ] }
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity":  [ 5, 15, 20, 60 ] },
+            { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 5, 15, 20, 60 ] }
           ]
         }
       ]
@@ -545,7 +556,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 75], [1, 25] ],
+          "Drops": [ [0, 90], [1, 10] ],
           "Loot": [
             { "Item": "Tier0Everything", "Weight": 10, "Rarity": [ 75, 25, 0, 0 ] },
             { "Item": "Tier1Everything", "Weight": 1,  "Rarity": [ 75, 25, 0, 0 ] }
@@ -602,48 +613,51 @@
           "Level": 1,
           "Drops": [ [0, 20], [1, 80] ],
           "Loot": [
-            { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
-            { "Item": "Tier2Weapons",    "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] }
+            { "Item": "Tier1Weapons",  "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] },
+            { "Item": "Tier2Weapons",  "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] }
           ]
         },
         {
           "Level": 2,
           "Drops": [ [0, 20], [1, 80] ],
           "Loot": [
-            { "Item": "Tier1Everything", "Weight": 5, "Rarity": [ 29, 39, 29, 3 ] },
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] }
+            { "Item": "Tier1Weapons", "Weight": 1, "Rarity": [ 29, 39, 29, 3 ] },
+            { "Item": "Tier2Weapons", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] }
           ]
         },
         {
           "Level": 3,
           "Drops": [ [0, 10], [1, 90] ],
           "Loot": [
-            { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 29, 39, 29, 3 ] }
+            { "Item": "Tier1Weapons", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
+            { "Item": "Tier2Weapons", "Weight": 1, "Rarity": [ 29, 39, 29, 3 ] }
           ]
         },
         {
           "Level": 4,
           "Drops": [ [0, 5], [1, 90], [2, 5] ],
           "Loot": [
-            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 0, 70, 20, 10 ] },
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 70, 20, 10 ] }
+            { "Item": "Tier1Weapons", "Weight": 1, "Rarity": [ 0, 70, 20, 10 ] },
+            { "Item": "Tier2Weapons", "Weight": 2, "Rarity": [ 0, 70, 20, 10 ] },
+            { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 0, 60, 25, 15 ] }
           ]
         },
         {
           "Level": 5,
           "Drops": [ [0, 5], [1, 90], [2, 5] ],
           "Loot": [
-            { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 0, 40, 50, 10 ] },
-            { "Item": "Tier2Everything", "Weight": 5, "Rarity": [ 0, 40, 50, 10 ] }
+            { "Item": "Tier1Weapons", "Weight": 1, "Rarity": [ 0, 40, 50, 10 ] },
+            { "Item": "Tier2Weapons", "Weight": 5, "Rarity": [ 0, 40, 50, 10 ] },
+            { "Item": "Tier3Weapons", "Weight": 2, "Rarity": [ 0, 60, 25, 15 ] }
           ]
         },
         {
           "Level": 6,
           "Drops": [ [0, 5], [1, 91], [2, 3], [3, 1] ],
           "Loot": [
-            { "Item": "Tier1Everything", "Weight": 1,  "Rarity": [ 0, 60, 25, 15 ] },
-            { "Item": "Tier2Everything", "Weight": 10, "Rarity": [ 0, 60, 25, 15 ] }
+            { "Item": "Tier2Weapons", "Weight": 1, "Rarity": [ 0, 40, 50, 10 ] },
+            { "Item": "Tier3Weapons", "Weight": 5, "Rarity": [ 0, 40, 50, 10 ] },
+            { "Item": "Tier4Weapons", "Weight": 2, "Rarity": [ 0, 60, 25, 15 ] }
           ]
         }
       ]
@@ -667,7 +681,6 @@
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 5, "Rarity": [ 40, 53, 5, 2 ] },
             { "Item": "Tier0Shields",    "Weight": 5, "Rarity": [ 40, 53, 5, 2 ] },
-            { "Item": "TrollArmor",      "Weight": 1, "Rarity": [ 40, 53, 5, 2 ] }
           ]
         },
         {
@@ -676,7 +689,6 @@
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
             { "Item": "Tier0Shields",    "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
-            { "Item": "TrollArmor",      "Weight": 1, "Rarity": [ 29, 59, 9, 3 ] }
           ]
         },
         {
@@ -685,7 +697,6 @@
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] },
             { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] },
-            { "Item": "TrollArmor",      "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] }
           ]
         },
         {
@@ -972,7 +983,7 @@
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
+    // Tier 0 Mobs (Greyling, Boar, Neck)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Greyling

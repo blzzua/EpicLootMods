@@ -997,6 +997,61 @@
         }
       ]
     },
+    // Tier 5 Mobs Stone Golem
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "StoneGolem",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 25], [1, 49], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ]},
+            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ]}
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 15], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
+            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 60, 35, 5  ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 10], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier5Everything", "Weight": 2, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 0], [1, 66], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 0, 85, 15 ] },
+            { "Item": "Tier5Everything", "Weight": 2, "Rarity": [ 0, 0, 85, 15 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 84], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 20 ] },
+            { "Item": "Tier5Everything", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 92], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
+            { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 0, 0, 75, 25 ] }
+          ]
+        }
+      ]
+    },
     // Tier 5 Mobs (Stone Golem, Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
@@ -1305,15 +1360,9 @@
 
     
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    //Begin Tier 5 Mobs (Stone Golem, Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
+    //Begin Tier 5 Mobs (Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    // Stone Golem (StoneGolem)
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "StoneGolem",
-      "RefObject": "Tier5Mob"
-    },
     // Fenring
     ////////////////////////////////////////////////////////////////////////////////////
     {

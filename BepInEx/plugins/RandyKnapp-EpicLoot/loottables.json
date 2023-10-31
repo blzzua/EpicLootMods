@@ -281,7 +281,7 @@
       "Loot": [
         { "Item": "ArmorRootChest", "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
         { "Item": "ArmorRootLegs",  "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
-        { "Item": "HelmetRoot",     "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
+        { "Item": "HelmetRoot",     "Weight": 1, "Rarity": [ 40, 40, 20, 10] }
       ]
     },
     {
@@ -518,6 +518,65 @@
       ]
     },
     
+    // Tier 0 Mob Greyling
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+      "Object": "Greyling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 90], [1, 10] ],
+          "Loot": [
+            { "Item": "Tier0Tools",   "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] },
+            { "Item": "Tier0Shields", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] },
+            { "Item": "Tier0Weapons", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 80], [1, 20] ],
+          "Loot": [
+            { "Item": "Tier0Tools",   "Weight": 2, "Rarity": [  0, 60, 35, 5 ] },
+            { "Item": "Tier0Shields", "Weight": 2, "Rarity": [  0, 60, 35, 5 ] },
+            { "Item": "Tier1Weapons", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 70], [1, 30] ],
+          "Loot": [
+            { "Item": "Tier0Tools",   "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier0Shields", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier1Weapons", "Weight": 3, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 80], [1, 20] ],
+          "Loot": [
+            { "Item": "Tier1Tools",   "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier1Weapons", "Weight": 3, "Rarity": [ 0, 60, 35, 5 ] }        
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 70], [1, 30] ],
+          "Loot": [
+            { "Item": "Tier0Tools",   "Weight": 1, "Rarity": [ 0, 0, 80, 20 ] },
+            { "Item": "Tier1Weapons", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ]}
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 60], [1, 39], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier0Tools",   "Weight": 1, "Rarity": [ 0, 0, 25, 75 ] },
+            { "Item": "Tier1Weapons", "Weight": 10, "Rarity": [ 0, 0, 25, 75 ] }
+          ]
+        }
+      ]
+    },
+     
     // Tier 0 Mobs (Greyling, Boar, Neck)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
@@ -709,7 +768,7 @@
           "Drops": [ [0, 60], [1, 40] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 5, "Rarity": [ 40, 53, 5, 2 ] },
-            { "Item": "Tier0Shields",    "Weight": 5, "Rarity": [ 40, 53, 5, 2 ] },
+            { "Item": "Tier0Shields",    "Weight": 5, "Rarity": [ 40, 53, 5, 2 ] }
           ]
         },
         {
@@ -717,7 +776,7 @@
           "Drops": [ [0, 60], [1, 40] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
-            { "Item": "Tier0Shields",    "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] },
+            { "Item": "Tier0Shields",    "Weight": 3, "Rarity": [ 29, 59, 9, 3 ] }
           ]
         },
         {
@@ -725,7 +784,7 @@
           "Drops": [ [0, 55], [1, 44], [2, 1] ],
           "Loot": [
             { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] },
-            { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] },
+            { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 15, 65, 15, 5 ] }
           ]
         },
         {
@@ -1229,15 +1288,9 @@
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 0 Mobs (Greyling, Boar, Neck)
+    // Tier 0 Mobs (Boar, Neck)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    // Greyling
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Greyling",
-      "RefObject": "Tier0Mob"
-    },
     // Boar
     ////////////////////////////////////////////////////////////////////////////////////
     {
@@ -1381,7 +1434,7 @@
 
     
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    //Begin Tier 5 Mobs (Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
+    // Begin Tier 5 Mobs (Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Fenring
@@ -1793,7 +1846,7 @@
     // TREASURE CHESTS
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //TreasureChest_meadows
+    // TreasureChest_meadows
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows",
@@ -1803,7 +1856,7 @@
         { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 97, 2, 1, 0] }
       ]
     },
-    //TreasureChest_blackforest
+    // TreasureChest_blackforest
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_blackforest",
@@ -1813,7 +1866,7 @@
         { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] }
       ]
     },
-    //TreasureChest_forestcrypt
+    // TreasureChest_forestcrypt
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_forestcrypt",
@@ -1823,14 +1876,14 @@
         { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 95, 4, 1, 0] }
       ]
     },
-    //TreasureChest_fCrypt (I think this is just a copy of forestcrypt)
+    // TreasureChest_fCrypt (I think this is just a copy of forestcrypt)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_fCrypt",
       "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
       "Loot": [{ "Item": "TreasureChest_forestcrypt.1" }]
     },
-    //TreasureChest_trollcave
+    // TreasureChest_trollcave
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_trollcave",

@@ -498,8 +498,8 @@
           "Level": 1,
           "Drops": [ [0, 80],[1, 20] ],
           "Loot": [
-            { "Item": "Tier0Everything", "Weight": 2, "Rarity": [ 100, 0, 0, 0 ] },
-            { "Item": "Tier0Tools", "Weight": 1, "Rarity": [ 60, 20, 15, 5 ] },
+            { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 100, 0, 0, 0 ] },
+            { "Item": "Tier0Tools", "Weight": 2, "Rarity": [ 60, 20, 15, 5 ] },
             { "Item": "Tier1Armor", "Weight": 1, "Rarity": [ 100, 0, 0, 0 ] }
           ]
         },
@@ -717,6 +717,60 @@
         }
       ]
     },
+    // Tier 3 Troll
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Troll",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 50], [1, 50] ],
+          "Loot": [
+            { "Item": "TrollArmor", "Weight": 2, "Rarity": [ 15, 78, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 10], [1, 85], [2, 5] ],
+          "Loot": [
+            { "Item": "TrollArmor", "Weight": 2, "Rarity": [ 15, 78, 5, 2 ] },
+            { "Item": "TrollArmor", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 10], [1, 80], [2, 20] ],
+          "Loot": [
+            { "Item": "TrollArmor", "Weight": 1, "Rarity": [ 2, 15, 78, 15] }
+            
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 5], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "TrollArmor", "Weight": 1, "Rarity": [ 0, 60, 35, 15 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 5], [1, 61], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "TrollArmor", "Weight": 3, "Rarity": [ 0, 0, 85, 15 ] },
+            { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 0, 0, 40, 60 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 5], [1, 74], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "TrollArmor", "Weight": 1,  "Rarity": [ 0, 0, 85, 15 ] },
+            { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 0, 0, 40, 60 ] }
+          ]
+        }
+      ]
+    },
+    
     // Tier 3 Mobs (Troll, Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {

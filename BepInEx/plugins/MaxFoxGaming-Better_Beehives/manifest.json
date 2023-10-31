@@ -1,0 +1,9 @@
+{
+  "name": "Better_Beehives",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "description": "Player-built beehives have a chance to drop a queen bee and royal jelly when harvested.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2100"
+  ]
+}

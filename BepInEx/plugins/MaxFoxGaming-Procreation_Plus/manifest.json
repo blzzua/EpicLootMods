@@ -1,0 +1,9 @@
+{
+  "name": "Procreation_Plus",
+  "version_number": "1.0.6",
+  "website_url": "",
+  "description": "Allows tamed creatures to give birth to offspring with higher levels than the parents.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2100"
+  ]
+}

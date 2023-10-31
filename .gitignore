@@ -1,0 +1,16 @@
+/valheim_Data
+/unstripped_corlib/
+/valheim_Data/
+/BepInEx/LogOutput.log
+/BepInEx/cache
+changelog.txt
+doorstop_config.ini
+doorstop_libs
+LinuxPlayer_s.debug
+*.sh
+steam_appid.txt
+UnityPlayer_s.debug
+UnityPlayer.so
+valheim.x86_64
+winhttp.dll
+*.kate-swp

@@ -1,0 +1,8 @@
+{
+    "name": "ShowContainerContents",
+    "version_number": "0.4.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/829",
+    "description": "Shows container contents and capacity in the hover text. Creator: aedenthorn - https://www.nexusmods.com/valheim/mods/829",
+    "dependencies": [
+    ]
+}

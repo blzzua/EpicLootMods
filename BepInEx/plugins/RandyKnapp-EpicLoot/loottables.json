@@ -329,9 +329,19 @@
         { "Item": "ArmorWolfLegs",      "Weight": 4, "Rarity": [ 10, 50, 30, 10 ] },
         { "Item": "ArmorWolfChest",     "Weight": 4, "Rarity": [ 10, 50, 30, 10 ] },
         { "Item": "HelmetDrake",        "Weight": 4, "Rarity": [ 10, 50, 30, 10 ] },
-        { "Item": "CapeWolf",           "Weight": 1, "Rarity": [ 10, 15, 25, 50 ] }
+        { "Item": "CapeWolf",           "Weight": 1, "Rarity": [ 10, 15, 25, 50 ] },
+        { "Item": "CapeWolf",           "Weight": 3, "Rarity": [ 10, 50, 30, 10 ] }
       ]
     },
+    {
+      "Name": "Tier4FenringArmor",
+      "Loot": [
+        { "Item": "ArmorFenringChest",  "Weight": 2, "Rarity": [ 10, 30, 50, 10 ] },
+        { "Item": "ArmorFenringLegs",   "Weight": 2, "Rarity": [ 10, 30, 50, 10 ] },
+        { "Item": "HelmetFenring",      "Weight": 3, "Rarity": [ 10, 25, 55, 10 ] }
+      ]
+    },
+
     {
       "Name": "Tier4Shields",
       "Loot": [
@@ -1271,7 +1281,65 @@
         }
       ]
     },
-    // Tier 5 Mobs (Fenring, Deathsquito, Lox, Fuling, Fuling Archer)
+    
+    // Tier 5 Mobs Fenrings (Fenring, Fenring_Cultist)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Fenrings",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 50], [1, 45], [2, 5] ],
+          "Loot": [
+            { "Item": "FistFenrirClaw", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] },
+            { "Item": "SpearWolfFang", "Weight": 1, "Rarity": [ 2, 10, 78, 10 ] },
+            { "Item": "Tier4FenringArmor", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 15], [1, 88], [2, 2] ],
+          "Loot": [
+            { "Item": "FistFenrirClaw", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
+            { "Item": "Tier4FenringArmor", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 10], [1, 88], [2, 2] ],
+          "Loot": [
+            { "Item": "FistFenrirClaw", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "SpearWolfFang", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier4FenringArmor", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 0], [1, 96], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier4FenringArmor", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 94], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier4FenringArmor", "Weight": 1, "Rarity": [ 0, 0, 20, 80 ] },
+            { "Item": "Tier4FenringArmor", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 92], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier4FenringArmor", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
+            { "Item": "Tier4FenringArmor", "Weight": 10, "Rarity": [ 0, 0, 25, 75 ] }
+          ]
+        }
+      ]
+    },
+    
+    // Tier 5 Mobs (Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier5Mob",
@@ -1519,7 +1587,7 @@
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 4 Mobs Elite (Draugr Elite, Oozer, Wraith, Fenring_Cultist)
+    // Tier 4 Mobs Elite (Draugr Elite, Oozer, Wraith)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Draugr Elite (Draugr_Elite)
@@ -1553,13 +1621,6 @@
       "Object": "Hatchling",
       "RefObject": "Tier4Mob"
     },
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Fenring_Cultist (Fenring_Cultist)
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Fenring_Cultist",
-      "RefObject": "Tier4MobElite"
-    },
     
     // Wraith
     ////////////////////////////////////////////////////////////////////////////////////
@@ -1568,17 +1629,21 @@
       "RefObject": "Tier4MobElite"
     },
 
-    
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Begin Tier 5 Mobs (Fenring, Deathsquito, Lox, Fuling, Fuling Archer)
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    // Fenring
+    // Fenrings (Fenring, Fenring_Cultist)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Fenring",
-      "RefObject": "Tier5Mob"
+      "RefObject": "Fenrings"
     },
+    {
+      "Object": "Fenring_Cultist",
+      "RefObject": "Fenrings"
+    },
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Begin Tier 5 Mobs ( Deathsquito, Lox, Fuling, Fuling Archer)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     // Serpent
     ////////////////////////////////////////////////////////////////////////////////////
     // {

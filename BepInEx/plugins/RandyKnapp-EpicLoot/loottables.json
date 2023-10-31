@@ -944,6 +944,60 @@
       ]
     },
     
+    // Tier 3 Mob Serpent
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Serpent",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 25], [1, 71], [2, 4] ],
+          "Loot": [
+            { "Item": "ShieldSerpentscale", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] },
+            { "Item": "SpearChitin", "Weight": 1, "Rarity": [ 5, 78, 15, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 15], [1, 88], [2, 2] ],
+          "Loot": [
+            { "Item": "SpearChitin", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
+            { "Item": "ShieldSerpentscale", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 10], [1, 88], [2, 2] ],
+          "Loot": [
+            { "Item": "ShieldSerpentscale", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 0], [1, 96], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "ShieldSerpentscale", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 94], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "SpearChitin", "Weight": 1, "Rarity": [ 0, 0, 20, 80 ] },
+            { "Item": "ShieldSerpentscale", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 92], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "ShieldSerpentscale", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
+            { "Item": "SpearChitin", "Weight": 10, "Rarity": [ 0, 0, 25, 75 ] }
+          ]
+        }
+      ]
+    },
+    
     // Tier 3 Mobs (Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
@@ -1217,7 +1271,7 @@
         }
       ]
     },
-    // Tier 5 Mobs (Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
+    // Tier 5 Mobs (Fenring, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier5Mob",
@@ -1516,7 +1570,7 @@
 
     
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Begin Tier 5 Mobs (Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
+    // Begin Tier 5 Mobs (Fenring, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Fenring
@@ -1527,10 +1581,10 @@
     },
     // Serpent
     ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Serpent",
-      "RefObject": "Tier5Mob"
-    },
+    // {
+    //   "Object": "Serpent",
+    //   "RefObject": "Tier5Mob"
+    // },
     // Deathsquito
     ////////////////////////////////////////////////////////////////////////////////////
     {

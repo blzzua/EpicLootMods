@@ -347,7 +347,28 @@
         { "Item": "Tier4Shields" }
       ]
     },
+    {
+      "Name": "Tier4StoneGolemLoot",
+      "Loot": [
+        { "Item": "ShieldSilver",       "Weight": 10, "Rarity": [ 10, 50, 30, 10 ] },
+        { "Item": "PickaxeIron",    "Weight": 10, "Rarity": [ 0, 15, 60, 25 ] },
+        { "Item": "BowDraugrFang", "Weight": 3, "Rarity": [ 5, 35, 50, 20 ] },
+        { "Item": "KnifeSilver",   "Weight": 10, "Rarity": [ 5, 35, 50, 20 ] },
+        { "Item": "MaceSilver",    "Weight": 4, "Rarity": [ 5, 50, 35, 20 ] }
+      ]
+    },
+    {
+      "Name": "Tier5StoneGolemLoot",
+      "Loot": [
+        { "Item": "AxeBlackMetal",    "Weight": 10, "Rarity": [ 0, 15, 60, 25 ] },
+        { "Item": "BowDraugrFang", "Weight": 2, "Rarity": [ 5, 20, 35, 50 ] },
+        { "Item": "MaceSilver",    "Weight": 2, "Rarity": [ 5, 20, 35, 50 ] },
+        { "Item": "ShieldBlackmetal",      "Weight": 2, "Rarity": [ 0, 15, 60, 25 ] },
+        { "Item": "ShieldBlackmetalTower", "Weight": 2, "Rarity": [ 0, 15, 60, 25 ] }
+      ]
+    },
 
+    
     // Tier 5 Items
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
@@ -951,7 +972,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 25], [1, 49], [2, 1] ],
+          "Drops": [ [0, 25], [1, 71], [2, 4] ],
           "Loot": [
             { "Item": "RootArmor", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] },
             { "Item": "RootArmor", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ] }
@@ -959,7 +980,7 @@
         },
         {
           "Level": 2,
-          "Drops": [ [0, 15], [1, 48], [2, 2] ],
+          "Drops": [ [0, 15], [1, 88], [2, 2] ],
           "Loot": [
             { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
             { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
@@ -967,21 +988,21 @@
         },
         {
           "Level": 3,
-          "Drops": [ [0, 10], [1, 48], [2, 2] ],
+          "Drops": [ [0, 10], [1, 88], [2, 2] ],
           "Loot": [
             { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
           ]
         },
         {
           "Level": 4,
-          "Drops": [ [0, 0], [1, 66], [2, 3], [3, 1] ],
+          "Drops": [ [0, 0], [1, 96], [2, 3], [3, 1] ],
           "Loot": [
             { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
           ]
         },
         {
           "Level": 5,
-          "Drops": [ [0, 0], [1, 84], [2, 4], [3, 2] ],
+          "Drops": [ [0, 0], [1, 94], [2, 4], [3, 2] ],
           "Loot": [
             { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 0, 20, 80 ] },
             { "Item": "RootArmor", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
@@ -1004,62 +1025,62 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 25], [1, 49], [2, 1] ],
+          "Drops": [ [0, 25], [1, 71], [2, 4] ],
           "Loot": [
-            { "Item": "Tier4Everything", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ]},
-            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ]}
+            { "Item": "Tier4StoneGolemLoot", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ]},
+            { "Item": "Tier5StoneGolemLoot", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ]}
           ]
         },
         {
           "Level": 2,
-          "Drops": [ [0, 15], [1, 48], [2, 2] ],
+          "Drops": [ [0, 15], [1, 88], [2, 2] ],
           "Loot": [
-            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
-            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 60, 35, 5  ] }
+            { "Item": "Tier4StoneGolemLoot", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
+            { "Item": "Tier5StoneGolemLoot", "Weight": 1, "Rarity": [ 0, 60, 35, 5  ] }
           ]
         },
         {
           "Level": 3,
-          "Drops": [ [0, 10], [1, 48], [2, 2] ],
+          "Drops": [ [0, 10], [1, 88], [2, 2] ],
           "Loot": [
-            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
-            { "Item": "Tier5Everything", "Weight": 2, "Rarity": [ 0, 10, 75, 15 ] }
+            { "Item": "Tier4StoneGolemLoot", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier5StoneGolemLoot", "Weight": 2, "Rarity": [ 0, 10, 75, 15 ] }
           ]
         },
         {
           "Level": 4,
-          "Drops": [ [0, 0], [1, 66], [2, 3], [3, 1] ],
+          "Drops": [ [0, 0], [1, 96], [2, 3], [3, 1] ],
           "Loot": [
-            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 0, 85, 15 ] },
-            { "Item": "Tier5Everything", "Weight": 2, "Rarity": [ 0, 0, 85, 15 ] }
+            { "Item": "Tier4StoneGolemLoot", "Weight": 1, "Rarity": [ 0, 0, 85, 15 ] },
+            { "Item": "Tier5StoneGolemLoot", "Weight": 2, "Rarity": [ 0, 0, 85, 15 ] }
           ]
         },
         {
           "Level": 5,
-          "Drops": [ [0, 0], [1, 84], [2, 4], [3, 2] ],
+          "Drops": [ [0, 0], [1, 94], [2, 4], [3, 2] ],
           "Loot": [
-            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 20 ] },
-            { "Item": "Tier5Everything", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
+            { "Item": "Tier4StoneGolemLoot", "Weight": 1, "Rarity": [ 0, 0, 80, 20 ] },
+            { "Item": "Tier5StoneGolemLoot", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
           ]
         },
         {
           "Level": 6,
           "Drops": [ [0, 0], [1, 92], [2, 5], [3, 3] ],
           "Loot": [
-            { "Item": "Tier4Everything", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
-            { "Item": "Tier5Everything", "Weight": 10, "Rarity": [ 0, 0, 75, 25 ] }
+            { "Item": "Tier4StoneGolemLoot", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
+            { "Item": "Tier5StoneGolemLoot", "Weight": 10, "Rarity": [ 0, 0, 75, 25 ] }
           ]
         }
       ]
     },
-    // Tier 5 Mobs (Stone Golem, Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
+    // Tier 5 Mobs (Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier5Mob",
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 60], [1, 38], [2, 2] ],
+          "Drops": [ [0, 90], [1, 10], [2, 2] ],
           "Loot": [
             { "Item": "Tier4Everything", "Weight": 2, "Rarity": [ 0, 30, 65, 5 ] },
             { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 30, 65, 5 ] }

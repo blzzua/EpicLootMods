@@ -271,9 +271,17 @@
         { "Item": "ArmorRootChest", "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
         { "Item": "ArmorRootLegs",  "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
         { "Item": "HelmetRoot",     "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
-        { "Item": "ArmorIronLegs",  "Weight": 1, "Rarity": [ 60, 28, 8, 4 ] },
-        { "Item": "ArmorIronChest", "Weight": 1, "Rarity": [ 60, 28, 8, 4 ] },
-        { "Item": "HelmetIron",     "Weight": 1, "Rarity": [ 60, 28, 8, 4 ] }
+        { "Item": "ArmorIronLegs",  "Weight": 3, "Rarity": [ 60, 28, 8, 4 ] },
+        { "Item": "ArmorIronChest", "Weight": 3, "Rarity": [ 60, 28, 8, 4 ] },
+        { "Item": "HelmetIron",     "Weight": 3, "Rarity": [ 60, 28, 8, 4 ] }
+      ]
+    },
+    {
+      "Name": "RootArmor",
+      "Loot": [
+        { "Item": "ArmorRootChest", "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
+        { "Item": "ArmorRootLegs",  "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
+        { "Item": "HelmetRoot",     "Weight": 1, "Rarity": [ 40, 40, 20, 10] },
       ]
     },
     {
@@ -771,7 +779,7 @@
       ]
     },
     
-    // Tier 3 Mobs (Troll, Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
+    // Tier 3 Mobs (Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier3Mob",
@@ -788,55 +796,55 @@
           "Level": 2,
           "Drops": [ [0, 65], [1, 34], [2, 1] ],
           "Loot": [
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 5, 83, 9, 3 ] },
-            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 5, 83, 9, 3 ] }
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ]  },
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ]  }
           ]
         },
         {
           "Level": 3,
           "Drops": [ [0, 65], [1, 34], [2, 1] ],
           "Loot": [
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 80, 15, 5 ] },
-            { "Item": "Tier3Everything", "Weight": 3, "Rarity": [ 0, 80, 15, 5 ] }
+            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 35, 60, 5 ]  },
+            { "Item": "Tier3Everything", "Weight": 3, "Rarity": [ 0, 60, 35, 5 ] }
           ]
         },
         {
           "Level": 4,
           "Drops": [ [0, 50], [1, 48], [2, 2] ],
           "Loot": [
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 80, 15, 5 ] },
-            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 80, 15, 5 ] }
+            { "Item": "Tier2Weapons", "Weight": 1, "Rarity":  [ 0, 60, 35, 15 ] },
+            { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 0, 80, 15, 5 ] }
           ]
         },
         {
           "Level": 5,
           "Drops": [ [0, 35], [1, 61], [2, 3], [3, 1] ],
           "Loot": [
-            { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 70, 20, 10 ] },
-            { "Item": "Tier3Everything", "Weight": 5, "Rarity": [ 0, 70, 20, 10 ] }
+            { "Item": "Tier2Weapons", "Weight": 3, "Rarity": [ 0, 0, 85, 15 ] },
+            { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 0, 0, 40, 60 ] }
           ]
         },
         {
           "Level": 6,
           "Drops": [ [0, 20], [1, 74], [2, 4], [3, 2] ],
           "Loot": [
-            { "Item": "Tier2Everything", "Weight": 1,  "Rarity": [ 0, 60, 25, 15 ] },
-            { "Item": "Tier3Everything", "Weight": 10, "Rarity": [ 0, 60, 25, 15 ] }
+            { "Item": "Tier2Weapons", "Weight": 1,  "Rarity": [ 0, 0, 85, 15 ] },
+            { "Item": "Tier3Weapons", "Weight": 1, "Rarity": [ 0, 0, 40, 60 ] }
           ]
         }
       ]
     },
-    // Tier 4 Mobs (Draugr Elite, Oozer, Wraith, Wolf, Drake)
+    // Tier 4 Mobs (Wolf, Drake)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Tier4Mob",
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [0, 65], [1, 34], [2, 1] ],
+          "Drops": [ [0, 85], [1, 14], [2, 1] ],
           "Loot": [
-            { "Item": "Tier3Everything", "Weight": 2, "Rarity": [ 0, 55, 40, 5 ] },
-            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 55, 40, 5 ] }
+            { "Item": "Tier3Everything", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] },
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ] }
           ]
         },
         {
@@ -844,7 +852,7 @@
           "Drops": [ [0, 50], [1, 48], [2, 2] ],
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
-            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] }
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
           ]
         },
         {
@@ -877,6 +885,114 @@
           "Loot": [
             { "Item": "Tier3Everything", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
             { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 0, 0, 75, 25 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 4 Mobs (Draugr Elite, Oozer, Wraith)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier4MobElite",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 50], [1, 49], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] },
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 50], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 50], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier4Everything", "Weight": 4, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 30], [1, 66], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] },
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 10], [1, 84], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 20 ] },
+            { "Item": "Tier4Everything", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 92], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
+            { "Item": "Tier4Everything", "Weight": 10, "Rarity": [ 0, 0, 75, 25 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 4 Abomination (Abomination)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Abomination",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 25], [1, 49], [2, 1] ],
+          "Loot": [
+            { "Item": "RootArmor", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] },
+            { "Item": "RootArmor", "Weight": 1, "Rarity": [ 15, 78, 5, 2 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 15], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 35, 55, 10 ] },
+            { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 10], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 0], [1, 66], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 10, 75, 15 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 84], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "RootArmor", "Weight": 1, "Rarity": [ 0, 0, 20, 80 ] },
+            { "Item": "RootArmor", "Weight": 5, "Rarity": [ 0, 0, 80, 20 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 92], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "RootArmor", "Weight": 1,  "Rarity": [ 0, 0, 75, 25 ] },
+            { "Item": "RootArmor", "Weight": 10, "Rarity": [ 0, 0, 25, 75 ] }
           ]
         }
       ]
@@ -1094,15 +1210,16 @@
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 3 Mobs (Troll, Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
+    // Tier 3 Mobs (Ulv, Ghost, Blob, Draugr, Draugr Archer, Leech, Surtling)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    // Troll
+    // Ulv (Ulv)
     ////////////////////////////////////////////////////////////////////////////////////
     {
-      "Object": "Troll",
+      "Object": "Ulv",
       "RefObject": "Tier3Mob"
     },
+
     // Ghost
     ////////////////////////////////////////////////////////////////////////////////////
     {
@@ -1141,45 +1258,23 @@
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 4 Mobs (Draugr Elite, Oozer, Wraith, Wolf, Drake,Abomination, Fenring_Cultist, Ulv)
+    // Tier 4 Mobs Elite (Draugr Elite, Oozer, Wraith, Fenring_Cultist)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Draugr Elite (Draugr_Elite)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Draugr_Elite",
-      "RefObject": "Tier4Mob"
+      "RefObject": "Tier4MobElite"
     },
-    // Abomination (Abomination)
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Abomination",
-      "RefObject": "Tier4Mob"
-    },
-    // Ulv (Ulv)
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Ulv",
-      "RefObject": "Tier4Mob"
-    },
-    // Fenring_Cultist (Fenring_Cultist)
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Fenring_Cultist",
-      "RefObject": "Tier4Mob"
-    },
+
     // Oozer (BlobElite)
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "BlobElite",
-      "RefObject": "Tier4Mob"
+      "RefObject": "Tier4MobElite"
     },
-    // Wraith
-    ////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Object": "Wraith",
-      "RefObject": "Tier4Mob"
-    },
+
     // Wolf
     ////////////////////////////////////////////////////////////////////////////////////
     {
@@ -1193,6 +1288,22 @@
       "RefObject": "Tier4Mob"
     },
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Fenring_Cultist (Fenring_Cultist)
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Fenring_Cultist",
+      "RefObject": "Tier4MobElite"
+    },
+    
+    // Wraith
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Wraith",
+      "RefObject": "Tier4MobElite"
+    },
+
+    
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //Begin Tier 5 Mobs (Stone Golem, Fenring, Serpent, Deathsquito, Lox, Fuling, Fuling Archer)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

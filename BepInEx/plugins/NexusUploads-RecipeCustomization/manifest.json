@@ -1,0 +1,8 @@
+{
+    "name": "RecipeCustomization",
+    "version_number": "0.5.2",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1245",
+    "description": "﻿Lets you customize existing recipes both for crafting stations and the build menu.",
+    "dependencies": [
+    ]
+}

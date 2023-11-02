@@ -383,7 +383,7 @@ pickables:
       name: Lantern
       iconName: hand
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
 pickables_inactive:
@@ -859,7 +859,7 @@ misc:
       name: n_a
       iconName: n_a
       isPermanent: false
-      isActive: false
+      isActive: true
       groupable: false
       groupingDistance: 15
     beechsmall:
@@ -912,8 +912,8 @@ misc:
       internalName: woodvillage
       name: n_a
       iconName: n_a
-      isPermanent: false
-      isActive: false
+      isPermanent: true
+      isActive: true
       groupable: false
       groupingDistance: 15
     rock:

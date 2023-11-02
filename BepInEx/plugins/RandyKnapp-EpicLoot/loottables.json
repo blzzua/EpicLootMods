@@ -2125,30 +2125,32 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_meadows",
-      "Drops": [ [0, 78], [1, 20], [2, 2] ],
+      "Drops": [ [0, 20], [1, 78], [2, 2] ],
       "Loot": [
-        { "Item": "Tier0Everything", "Weight": 4, "Rarity": [ 97, 2, 1, 0] },
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 97, 2, 1, 0] }
+        { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2]},
+        { "Item": "Tier0Tools", "Weight": 1, "Rarity": [ 15, 78, 5, 2]},
+        { "Item": "Torch", "Weight": 4, "Rarity": [ 78, 15, 5, 2]},
+        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 15, 78, 5, 2]}
       ]
     },
     // TreasureChest_blackforest
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_blackforest",
-      "Drops": [ [0, 70], [1, 30] ],
+      "Drops": [ [0, 20], [1, 75], [1, 5]],
       "Loot": [
-        { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 95, 4, 1, 0] },
-        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] }
+        { "Item": "Tier0Shields",    "Weight": 1, "Rarity": [ 15, 78, 5, 2]},
+        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 15, 78, 5, 2]}
       ]
     },
     // TreasureChest_forestcrypt
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_forestcrypt",
-      "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
+      "Drops": [ [0, 20], [1, 68], [2, 10], [3, 2] ],
       "Loot": [
-        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0] },
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 95, 4, 1, 0] }
+        { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 0, 60, 35, 5 ] },
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 0, 60, 35, 5 ] }
       ]
     },
     // TreasureChest_fCrypt (I think this is just a copy of forestcrypt)
@@ -2164,8 +2166,11 @@
       "Object": "TreasureChest_trollcave",
       "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
       "Loot": [
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] },
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0] }
+        { "Item": "Tier2Armor", "Weight": 2, "Rarity": [ 90, 9, 1, 0] },
+        { "Item": "Tier2Shields", "Weight": 2, "Rarity": [ 90, 9, 1, 0] },
+        { "Item": "Tier2Weapons", "Weight": 2, "Rarity": [ 90, 9, 1, 0] },
+        { "Item": "Tier3Tools", "Weight": 1, "Rarity": [ 90, 9, 1, 0] },
+        { "Item": "PickaxeBronze", "Weight": 2, "Rarity": [ 90, 9, 1, 0] }
       ]
     },
     // shipwreck_karve_chest
@@ -2192,10 +2197,10 @@
     ////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "TreasureChest_sunkencrypt",
-      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Drops": [ [0, 18], [1, 70], [2, 20], [3, 2] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 3, "Rarity": [ 80, 17, 3, 0] },
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 80, 17, 3, 0] }
+        { "Item": "Tier2Everything", "Weight": 3, "Rarity": [ 75, 17, 5, 3] },
+        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 75, 17, 5, 3] }
       ]
     },
     // TreasureChest_swamp
@@ -2204,8 +2209,8 @@
       "Object": "TreasureChest_swamp",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 5 },
-        { "Item": "Tier3Everything", "Weight": 1 }
+        { "Item": "Tier2Everything", "Weight": 5, "Rarity": [ 70, 25, 5, 0] },
+        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 70, 25, 5, 0] }
       ]
     },
     // TreasureChest_mountains
@@ -2214,8 +2219,8 @@
       "Object": "TreasureChest_mountains",
       "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
       "Loot": [
-        { "Item": "Tier3Everything", "Weight": 4 },
-        { "Item": "Tier4Everything", "Weight": 1 }
+        { "Item": "Tier3Everything", "Weight": 4, "Rarity": [ 70, 25, 5, 0] },
+        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 70, 25, 5, 0] }
       ]
     },
     // TreasureChest_mountaincave

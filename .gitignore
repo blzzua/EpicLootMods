@@ -1,6 +1,6 @@
 /unstripped_corlib/
 /valheim_Data/
-/config/EpicLoot/BountySaves/
+/BepInEx/config/EpicLoot/BountySaves/
 /BepInEx/LogOutput.log
 /BepInEx/cache
 changelog.txt

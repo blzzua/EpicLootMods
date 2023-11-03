@@ -1,0 +1,9 @@
+{
+    "name": "MapPrinter",
+    "version_number": "1.0.4",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1828",
+    "description": "Reading a Cartography Table will also save a PNG file of the explored parts of your world map. Designed to create a reference map for No-Map playthroughs, but will work for regular playthroughs just as well.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

@@ -263,6 +263,50 @@
       ]
     },
     {
+      "Name": "Recipe_MagicJuiceToShard_Conversion",
+      "Product": "ShardMagic",
+      "Amount": 2,
+      "Type": "Convert", 
+      "Resources": [
+        { "Item": "DustMagic", "Amount": 3 },
+        { "Item": "ReagentMagic", "Amount": 2 },
+        { "Item": "EssenceMagic", "Amount": 1 }
+      ]
+    },
+    {
+      "Name": "Recipe_RareJuiceToShard_Conversion",
+      "Product": "ShardRare",
+      "Amount": 2,
+      "Type": "Convert", 
+      "Resources": [
+        { "Item": "DustRare", "Amount": 3 },
+        { "Item": "ReagentRare", "Amount": 2 },
+        { "Item": "EssenceRare", "Amount": 1 }
+      ]
+    },
+    {
+      "Name": "Recipe_EpicJuiceToShard_Conversion",
+      "Product": "ShardEpic",
+      "Amount": 2,
+      "Type": "Convert", 
+      "Resources": [
+        { "Item": "DustEpic", "Amount": 3 },
+        { "Item": "ReagentEpic", "Amount": 2 },
+        { "Item": "EssenceEpic", "Amount": 1 }
+      ]
+    },
+    {
+      "Name": "Recipe_LegendaryJuiceToShard_Conversion",
+      "Product": "ShardLegendary",
+      "Amount": 2,
+      "Type": "Convert", 
+      "Resources": [
+        { "Item": "DustLegendary", "Amount": 3 },
+        { "Item": "ReagentLegendary", "Amount": 2 },
+        { "Item": "EssenceLegendary", "Amount": 1 }
+      ]
+    },
+    {
       "Name": "Recipe_BoneSkeletonTrophy",
       "Product": "TrophySkeleton",
       "Type": "Junk", 

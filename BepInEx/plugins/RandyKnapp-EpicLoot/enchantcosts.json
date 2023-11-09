@@ -344,15 +344,15 @@
     }
   ],
   "ReAugmentCosts" : [
-    { "Item": "Coins", "Amount": 5000 },
-    { "Item": "Coins", "Amount": 10000 },
-    { "Item": "Coins", "Amount": 15000 },
-    { "Item": "Coins", "Amount": 20000 },
-    { "Item": "Coins", "Amount": 25000 },
-    { "Item": "Coins", "Amount": 35000 },
-    { "Item": "Coins", "Amount": 40000 },
-    { "Item": "Coins", "Amount": 45000 },
-    { "Item": "Coins", "Amount": 50000 },
-    { "Item": "Coins", "Amount": 55000 }
+    { "Item": "Coins", "Amount": 10 },
+    { "Item": "Coins", "Amount": 20 },
+    { "Item": "Coins", "Amount": 40 },
+    { "Item": "Coins", "Amount": 100 },
+    { "Item": "Coins", "Amount": 150 },
+    { "Item": "Coins", "Amount": 250 },
+    { "Item": "Coins", "Amount": 400 },
+    { "Item": "Coins", "Amount": 450 },
+    { "Item": "Coins", "Amount": 500 },
+    { "Item": "Coins", "Amount": 550 }
   ] 
 }

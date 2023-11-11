@@ -323,6 +323,33 @@
       ]
     },
     {
+      "Name": "Recipe_EyesGreydwarfTrophy",
+      "Product": "TrophyGreydwarf",
+      "Type": "Junk", 
+      "Resources": [
+        { "Item": "GreydwarfEye", "Amount": 2 },
+        { "Item": "Resin", "Amount": 5 },
+        { "Item": "Dandelion", "Amount": 1 }
+      ]
+    },
+    {
+      "Name": "Recipe_EntrailsTrophyDraugr",
+      "Product": "TrophyDraugr",
+      "Type": "Junk", 
+      "Resources": [
+        { "Item": "Entrails", "Amount": 10 }
+      ]
+    },
+    {
+      "Name": "Recipe_AntlerHideDeerTrophy",
+      "Product": "TrophyDeer",
+      "Type": "Junk", 
+      "Resources": [
+        { "Item": "HardAntler", "Amount": 2 },
+        { "Item": "DeerHide", "Amount": 5 }
+      ]
+    },
+    {
       "Name": "Recipe_AntlerDeerTrophy",
       "Product": "TrophyDeer",
       "Type": "Junk", 
